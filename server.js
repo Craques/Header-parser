@@ -17,5 +17,5 @@ app.set("view engine", "handlebars");
 //starting the server
 routes(app);
 var port = process.env.PORT || 3000;
-app.listen(port, '127.0.0.1');
+app.listen(port);
 console.log("app listening on port " + port);
