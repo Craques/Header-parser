@@ -1,5 +1,5 @@
 {
-  "name": "Header-Parser",
+  "name": "header-parser",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,21 @@
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "os": "^0.1.1",
+    "request-ip": "^1.2.2",
     "serve-favicon": "~2.3.0",
     "ua-parser": "^0.3.5"
-  }
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Craques/Header-parser.git"
+  },
+  "author": "craques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Craques/Header-parser/issues"
+  },
+  "homepage": "https://github.com/Craques/Header-parser#readme",
+  "description": ""
 }
