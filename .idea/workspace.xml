@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c0dbae8-2784-47e6-89db-3f21e4ce8704" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-    </list>
+    <list default="true" id="8c0dbae8-2784-47e6-89db-3f21e4ce8704" name="Default" comment="" />
     <ignored path="Header-Parser.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -665,12 +661,12 @@
       <workItem from="1463901665832" duration="1206000" />
       <workItem from="1463902937307" duration="3655000" />
       <workItem from="1463909572671" duration="103000" />
-      <workItem from="1463945189263" duration="908000" />
+      <workItem from="1463945189263" duration="964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35943000" />
+    <option name="totallyTimeSpent" value="35999000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
