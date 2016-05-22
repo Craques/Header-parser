@@ -1,0 +1,40 @@
+body{
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: #ededed;
+}
+
+.heading{
+    top:0;
+    left: 0;
+    position: fixed;
+    background-color: #ffffff;
+    margin: 0;
+    padding-top: 1.3vh;
+    width: 100vw;
+    height: 10vh;
+    color: firebrick;
+}
+
+img{
+    height: 50px;
+}
+.container{
+    margin-top: 20vh ;
+}
+
+r{
+    color: #761c19;
+}
+
+.user-object{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+g{
+    color: #636363;
+    font-size: 2.09em;
+}

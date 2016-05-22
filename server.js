@@ -5,6 +5,9 @@ var app = express();
 var handlebars = require("express-handlebars");
 var routes = require("./routes/index.js");
 
+//enable stylesheet and js files to use public route
+app.use('/public', express.static(process.cwd() + "/public"));
+
 //express-handlebars will be my view engine
 app.set("views", __dirname +"/views");
 app.engine("handlebars", handlebars({defaultLayout: "main", layoutsDir: __dirname + "/views/layouts"}));
