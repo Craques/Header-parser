@@ -23,6 +23,16 @@ img{
 }
 .container{
     margin-top: 20vh ;
+    height: 80vh;
+    display: table;
+    width: 100vw;
+    line-height: 40vh;
+}
+
+.col-center{
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 r{
@@ -38,3 +48,4 @@ g{
     color: #636363;
     font-size: 2.09em;
 }
+

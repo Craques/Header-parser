@@ -1,6 +1,5 @@
 //importing all the dependencies
 var express = require("express");
-//var os = require("os");
 var app = express();
 var handlebars = require("express-handlebars");
 var routes = require("./routes/index.js");
