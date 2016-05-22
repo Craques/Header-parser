@@ -1,5 +1,7 @@
 var acceptLanguage = require("accept-language"); //module to parse the accepted languages
-var osParser = require("ua-parser");
+var osParser = require("ua-parser");//module offers better os parameters
+
+
 module.exports = function(app){
   app.route("/")
       .get(function(req,res){
@@ -8,6 +10,7 @@ module.exports = function(app){
           var os = osParser.parse(deviceParams); //get browser operating system
           var ip = req.connection.remoteAddress; // get ip adress of browser
           var userObj = {"language":language[0].value, "os":os.os.family, "ip":ip};
+
           console.log(userObj);
           res.render("layout", userObj);
       })
