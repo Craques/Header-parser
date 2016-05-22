@@ -1,9 +1,15 @@
-var express = require('express');
-var router = express.Router();
+var acceptLanguage = require("accept-language"); //module to parse the accepted languages
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+module.exports = function(app){
+  app.route("/")
+      .get(function(req,res){
+        var language = acceptLanguage.parse(req.headers['accept-language']); //get languages in an objects array
+        var os = process.platform; //get browser operating system
+        var ip = req.connection.remoteAddress; // get ip adress of browser
+        console.log(language);
+        var userObj = {"language":language[0].value, "os":os, "ip":ip};
+        console.log(userObj);
+      })
+}
 
-module.exports = router;
+

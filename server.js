@@ -2,14 +2,16 @@
 var express = require("express");
 //var os = require("os");
 var app = express();
-//var handlebars = require("express-handlebars");
+var handlebars = require("express-handlebars");
+var routes = require("./routes/index.js");
 
-app.get("/", function(req, res){
-  res.send(process.platform + "," + req.connection.remoteAddress);
-  //console.log(process.platform());
-});
+//express-handlebars will be my view engine
+app.set("views", __dirname +"/views");
+app.engine("handlebars", handlebars({defaultLayout: "main", layoutsDir: __dirname + "/views/layouts"}));
+app.set("view engine", "handlebars");
 
 //starting the server
+routes(app);
 var port = process.env.PORT || 3000;
 app.listen(port);
 console.log("app listening on port " + port);
