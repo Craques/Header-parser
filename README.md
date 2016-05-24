@@ -1,4 +1,4 @@
-### Header-parser Microservice
+# Header-parser Microservice
 
 This contains a working solution of the header parser microservice. 
 
@@ -6,6 +6,6 @@ This contains a working solution of the header parser microservice.
 
 Express-handlebars, Bootstrap (css)
 
-# Link to app
+### Link to app
 
 https://craques-header-parser.herokuapp.com/
